@@ -66,7 +66,7 @@ public class StorePageTests extends TestBase {
         step("Find game by search field", () -> {
             storeMainPage.searchInput(gameName);
         });
-        step("Click on game with name" + gameName, () -> {
+        step("Click on game with name " + gameName, () -> {
             storeGamesPage.clickOnGame(gameName);
         });
         step("Add to cart", () -> {
@@ -88,7 +88,7 @@ public class StorePageTests extends TestBase {
         step("Find game by search field", () -> {
             storeMainPage.searchInput(gameName);
         });
-        step("Click on game with name" + gameName, () -> {
+        step("Click on game with name " + gameName, () -> {
             storeGamesPage.clickOnGame(gameName);
         });
         step("Add to cart", () -> {

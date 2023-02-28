@@ -88,7 +88,7 @@ public class CommunityPageTests extends TestBase {
         step("Open main Steam community page", () -> {
             communityMainPage.openMainCommunityPage();
         });
-        step("Enter player name " + playerName + "in find people search field", () -> {
+        step("Enter player name " + playerName + " in find people search field", () -> {
             communityMainPage.searchPlayersInput(playerName);
         });
         step("Verify that results have player with name " + playerName, () -> {
